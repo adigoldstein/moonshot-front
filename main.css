@@ -1,0 +1,538 @@
+html,
+body {
+  font-family: 'Titillium Web', sans-serif;
+  width: 100%;
+  height: 100%;
+
+}
+
+html {
+  box-sizing: border-box;
+
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+nav.navbar{
+  margin-bottom: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+nav .navbar-nav .nav-li {
+  color: white;
+
+}
+
+
+.container-fluid {
+  max-width: 1150px;
+}
+
+
+
+
+/******** Main *******/
+
+header {
+  background-color: black;
+}
+
+.first-h1, .second-h1 {
+  font-family: 'Titillium web';
+  font-weight: bold;
+  font-size: 40px
+}
+
+.first-h1 {
+  color: #FFFFFF;
+}
+
+.second-h1 {
+  color: #4195f4;
+}
+
+.bottom-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blue-v {
+  color: #4195f4;
+  font-size: 24px;
+}
+
+.v-list {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.v-list span {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  color: #FFFFFF;
+  padding-left: 20px;
+}
+
+/**** Knifes section ****/
+
+.topbar {
+  display: flex;
+  margin-left: 254px;
+  margin-top: 30px;
+}
+
+.list-header {
+  font-weight:bold;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.rating-header {
+  padding-left: 320px;
+}
+
+.sort-by {
+  display: flex;
+  font-size:12px;
+  font-weight: bold;
+  padding-left: 200px;
+  padding-top: 40px;
+}
+
+.sort-option  {
+  padding-left: 12px;
+  padding-bottom: 2px;
+}
+
+.option-active {
+  color: #4195f4 ;
+}
+.knifes-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans';
+}
+
+.knife-li {
+  display: flex;
+  border: 3px solid #b4bcc3;
+  border-top: none;
+  width: 1150px;
+}
+
+.knife-li:first-child {
+  border: 3px solid #f5d45d;
+}
+
+.number-container {
+  width: 50px;
+}
+
+.serial-number {
+  font-size: 50px;
+  font-weight: lighter;
+  color: #b4bcc3;
+  padding-top: 32px;
+  padding-left: 23px;
+}
+
+.knife-img {
+  height: 157px;
+  width: 175px;
+  padding-top: 10px;
+}
+
+.description {
+  width: 420px;
+  font-size: 16px;
+  padding: 20px 30px 0 30px;
+  color: #677a8b;
+}
+
+.circle {
+  border: 3px solid #677a8b;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 22px;
+}
+
+.first-circle {
+  border: 3px solid #f7c328;
+}
+
+.rating {
+  margin-left: 30px;
+  padding-top: 15px;
+}
+
+.rating-num {
+  font-size: 26px;
+  font-family: open-sans;
+  font-weight: bold;
+}
+
+.votes {
+  color: #0b1720;
+  font-size: 9px;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  color: #f7c328;
+  padding-top: 5px;
+}
+
+.rating, .amazon-btn-div {
+  display: inline-block;
+}
+
+.amazon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 156px;
+  padding-top: 23px;
+}
+
+.amazon-btn {
+  border-radius: 28px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 18px;
+  background: #00b300;
+  padding: 10px 25px 10px 25px;
+  text-decoration: none;
+  border: none;
+}
+
+.first-btn {
+  background: #f7c328;
+}
+
+.amazon-btn:hover {
+  background: #00cc00;
+
+  text-decoration: none;
+}
+
+.first-btn:hover {
+  background: #f5d45d;
+}
+
+.btn-arr {
+  font-size: 14px;
+  display: inline-block;
+}
+
+.amazon-logo {
+  margin: 10px auto;
+}
+
+.reviews {
+  margin: 0 auto;
+  color: #4195f4;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+/***** FAQ ******/
+
+.faq {
+  width: 1150px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  justify-content: space-between;
+}
+
+.questions {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  padding-top: 30px;
+
+}
+
+.faq-left {
+  margin-left: 20px ;
+}
+
+.faq-right {
+  display: inline-block;
+  height: 105px;
+}
+
+.faq-img {
+  height: 100%;
+  margin-top: 76px;
+  margin-right: 20px;
+
+}
+
+.faq-main-header {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.faq-blue {
+  color: #4195f4;
+  font-family: 'Open Sans';
+  font-size: 16px;
+}
+
+.view-all {
+  margin-top: 20px;
+}
+
+.whats-vpn {
+  margin-top: 40px;
+}
+
+.faq-down {
+  margin-top: 50px;
+}
+
+.vpn-link {
+  border-top: 1px solid #b4bcc3;
+  padding: 7px 2px;
+  display: flex;
+  justify-content:space-between;
+}
+
+.vpn-link i {
+  color: #4195f4;
+}
+
+.fa-chevron-right {
+  margin-top: 3px;
+}
+
+/****** Cards******/
+
+.cards-wrapper {
+  background-color: #f7f7f7;
+
+}
+
+.card {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card img {
+  width: 245px;
+
+}
+
+.card h4 {
+  margin-top: 30px;
+  font-size: 22px;
+
+}
+
+.faq-p {
+  width: 542px;
+  font-size: 16px;
+  font-family: 'Open Sans';
+  color: #677a8b;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 1150px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.cards {
+
+  background-color: #f7f7f7;
+
+}
+
+.card {
+  width: 300px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.footer-wrapper {
+  width: 1150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  height: 24px;
+  margin-top: 6px;
+}
+
+.footer-header {
+  font-size: 20px;
+  font-family: 'Open Sans';
+  color: #4195f4;
+  font-weight: bold;
+}
+
+.footer-right {
+  width: 66%;
+}
+
+.links-holder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.footer-list li {
+  width: 130px;
+  margin: 15px 015px 0;
+}
+
+
+
+
+/************************************** Responsive stuff *************************************/
+
+@media (max-width: 1200px) {
+  .knife-li, .faq, .cards-wrapper {
+    width: 1000px;
+  }
+  .rating {
+    margin-left: 0;
+  }
+
+  .amazon-container {
+    padding-left: 44px;
+  }
+
+  .topbar {
+    margin-left: 228px;
+  }
+
+.rating-header {
+  padding-left: 289px;
+}
+  .sort-by {
+    padding-left: 59px;
+  }
+}
+
+@media (max-width: 1030px) {
+
+  .topbar {
+    margin-left: 329px;
+  }
+
+  .list-header {
+    font-size:15px;
+  }
+
+  .rating-header {
+    padding-left: 171px;
+  }
+
+  .sort-by {
+    padding-left: 40px;
+    font-size:10px;
+  }
+
+  .knife-li {
+    width: 800px;
+  }
+
+  .description {
+    width: 276px;
+    font-size: 14px;
+  }
+
+  .amazon-container {
+    padding-left: 15px;
+  }
+
+  .amazon-btn {
+    font-size:15px;
+  }
+
+  .questions {
+    margin: 0 auto;
+  }
+  .faq-img {
+    display: none;
+  }
+
+  .card {
+    width: 250px;
+  }
+}
+
+@media (max-width: 990px) {
+
+  .topbar {
+    margin-left: 226px;
+  }
+  .knife-container {
+
+    width: 780px;
+  }
+
+  .card {
+    width: 200px;
+  }
+
+  .card img {
+    height: 245px;
+  }
+}
+
+/********** Links*/
+
+nav .container-fluid .nav.nav-li a:link, nav .navbar-nav .nav-li a:visited {
+  color: white;
+  font-family: 'Open Sans';
+
+
+}
+
+.footer-list a:link, .footer-list a:visited {
+  font-size: 15px;
+  font-family: 'Open Sans';
+
+
+}
+
+.footer-list a:hover, .footer-list a:active {
+  color: white;
+}
