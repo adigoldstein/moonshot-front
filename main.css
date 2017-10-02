@@ -259,7 +259,6 @@ header {
 .questions {
   display: flex;
   justify-content: space-between;
-  width: 600px;
   padding-top: 30px;
 
 }
@@ -271,7 +270,7 @@ header {
 .faq-right {
   display: inline-block;
   height: 105px;
-  color: #4195f4;
+  margin-left: -15px;
 }
 
 .faq-img {
@@ -295,6 +294,11 @@ header {
 .view-all {
   margin-top: 20px;
   width: 59px;
+ 
+}
+
+.down-arr {
+  color: #4195f4;
 }
 
 .whats-vpn {
