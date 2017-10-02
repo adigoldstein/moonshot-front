@@ -16,6 +16,8 @@ ul {
   list-style: none;
 }
 
+/****** Nav ********/
+
 nav.navbar {
   margin-bottom: 0;
   padding: 0;
@@ -24,7 +26,6 @@ nav.navbar {
 
 nav .navbar-nav .nav-li {
   color: white;
-
 }
 
 .container-fluid {
@@ -270,6 +271,7 @@ header {
 .faq-right {
   display: inline-block;
   height: 105px;
+  color: #4195f4;
 }
 
 .faq-img {
@@ -292,6 +294,7 @@ header {
 
 .view-all {
   margin-top: 20px;
+  width: 59px;
 }
 
 .whats-vpn {
@@ -321,7 +324,6 @@ header {
 
 .cards-wrapper {
   background-color: #f7f7f7;
-
 }
 
 .card {
@@ -333,13 +335,11 @@ header {
 
 .card img {
   width: 245px;
-
 }
 
 .card h4 {
   margin-top: 30px;
   font-size: 22px;
-
 }
 
 .faq-p {
@@ -358,16 +358,13 @@ header {
 }
 
 .cards {
-
   background-color: #f7f7f7;
-
 }
 
 .card {
   width: 300px;
   margin-top: 70px;
   margin-bottom: 50px;
-
 }
 
 footer {
@@ -409,7 +406,6 @@ footer {
 .links {
   display: flex;
   justify-content: space-between;
-
 }
 
 .footer-list li {
@@ -503,15 +499,16 @@ footer {
   }
 
   .knife-container {
-
     width: 780px;
   }
 
-  .card {
+  .cards-wrapper, .faq {
+    width: 100%;
   }
 
   .card img {
-    height: 245px;
+    height: 300px;
+    width: 300px;
   }
 
   .links-holder {
@@ -534,10 +531,10 @@ footer {
   }
 
   .sort-by {
-    padding-left: 0px;
+    padding-left: 0;
     font-size: 9px;
   }
-  
+
   .knife-li {
     width: 640px;
   }
@@ -574,6 +571,47 @@ footer {
   .amazon-btn {
     padding: 5px 15px 5px 15px;
     font-size: 12px;
+  }
+}
+
+@media (max-width: 750px) {
+  .header-img {
+    display: none;
+  }
+
+  .list-header, .rating-header {
+    display: none;
+  }
+
+  .sort-by {
+    font-size: 10px;
+  }
+
+  .knife-li {
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+  }
+
+  .reviews {
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 680px) {
+
+  .faq-p {
+    width: 410px;
+  }
+}
+
+@media (max-width: 580px) {
+  .knife-li {
+    width: 350px;
+  }
+
+  .links {
+    flex-direction: column;
   }
 }
 
