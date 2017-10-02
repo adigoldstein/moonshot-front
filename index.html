@@ -13,6 +13,28 @@
 </head>
 <body>
 
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
 <nav class="navbar navbar-default navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -79,8 +101,8 @@
       </div>
       <div class="amazon-btn-div">
         <div class="amazon-container">
-          <button class="amazon-btn first-btn">Visit Product
-            <div class="btn-arr"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></div>
+          <button class="amazon-btn first-btn" data-toggle="modal" data-target="#myModal">Visit Product
+            <div class="btn-arr"><i class="fa fa-chevron-circle-right" aria-hidden="true" ></i></div>
           </button>
           <img class="amazon-logo" src="assets/amazon.png" height="30px" width="100px" alt="Amazon Logo">
           <div class="reviews">883 Reviews</div>
